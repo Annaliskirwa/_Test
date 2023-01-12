@@ -10,7 +10,7 @@ image:
   repository: service_a
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: $((RANDOM))
+  tag: "$((RANDOM))"
 
 imagePullSecrets: {}
 nameOverride: ""
