@@ -10,7 +10,7 @@ image:
   repository: service_a
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 7108
+  tag: 11776
 
 imagePullSecrets: {}
 nameOverride: ""
