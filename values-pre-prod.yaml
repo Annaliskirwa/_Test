@@ -3,13 +3,11 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-
 image:
   repository: service_a
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 19640
-
+  tag: "6940"
 imagePullSecrets: {}
 nameOverride: ""
 fullnameOverride: ""
